@@ -1,0 +1,27 @@
+1350785483
+About page	/Users/cameronbradley/Desktop/InvestorCaps/spec/requests/statics_spec.rb	describe "About page" do
+Application	/Users/cameronbradley/Desktop/InvestorCaps/config/application.rb	  class Application 
+ApplicationController	/Users/cameronbradley/Desktop/InvestorCaps/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	/Users/cameronbradley/Desktop/InvestorCaps/app/helpers/application_helper.rb	module ApplicationHelper
+BrowsingTest	/Users/cameronbradley/Desktop/InvestorCaps/test/performance/browsing_test.rb	class BrowsingTest 
+Contact page	/Users/cameronbradley/Desktop/InvestorCaps/spec/requests/statics_spec.rb	describe "Contact page" do
+Help page	/Users/cameronbradley/Desktop/InvestorCaps/spec/requests/statics_spec.rb	describe "Help page" do
+Home page	/Users/cameronbradley/Desktop/InvestorCaps/spec/requests/statics_spec.rb	describe "Home page" do
+InvestorCaps	/Users/cameronbradley/Desktop/InvestorCaps/config/application.rb	module InvestorCaps
+Static pages	/Users/cameronbradley/Desktop/InvestorCaps/spec/requests/statics_spec.rb	describe "Static pages" do
+StaticPagesController	/Users/cameronbradley/Desktop/InvestorCaps/app/controllers/static_pages_controller.rb	class StaticPagesController 
+StaticPagesHelper	/Users/cameronbradley/Desktop/InvestorCaps/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+TestCase	/Users/cameronbradley/Desktop/InvestorCaps/test/test_helper.rb	class ActiveSupport::TestCase
+about	/Users/cameronbradley/Desktop/InvestorCaps/app/controllers/static_pages_controller.rb	  def about
+contact	/Users/cameronbradley/Desktop/InvestorCaps/app/controllers/static_pages_controller.rb	  def contact
+help	/Users/cameronbradley/Desktop/InvestorCaps/app/controllers/static_pages_controller.rb	  def help
+home	/Users/cameronbradley/Desktop/InvestorCaps/app/controllers/static_pages_controller.rb	  def home
+should have the h1 'About Us'	/Users/cameronbradley/Desktop/InvestorCaps/spec/requests/statics_spec.rb	it "should have the h1 'About Us'" do
+should have the h1 'Contact'	/Users/cameronbradley/Desktop/InvestorCaps/spec/requests/statics_spec.rb	it "should have the h1 'Contact'" do
+should have the h1 'Help'	/Users/cameronbradley/Desktop/InvestorCaps/spec/requests/statics_spec.rb	it "should have the h1 'Help'" do
+should have the h1 'Sample App'	/Users/cameronbradley/Desktop/InvestorCaps/spec/requests/statics_spec.rb	it "should have the h1 'Sample App'" do
+should have the title 'About Us'	/Users/cameronbradley/Desktop/InvestorCaps/spec/requests/statics_spec.rb	it "should have the title 'About Us'" do
+should have the title 'Contact'	/Users/cameronbradley/Desktop/InvestorCaps/spec/requests/statics_spec.rb	it "should have the title 'Contact'" do
+should have the title 'Help'	/Users/cameronbradley/Desktop/InvestorCaps/spec/requests/statics_spec.rb	it "should have the title 'Help'" do
+should have the title 'Home'	/Users/cameronbradley/Desktop/InvestorCaps/spec/requests/statics_spec.rb	it "should have the title 'Home'" do
+test_homepage	/Users/cameronbradley/Desktop/InvestorCaps/test/performance/browsing_test.rb	  def test_homepage
