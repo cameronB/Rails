@@ -30,6 +30,11 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
+  def show
+    @user = User.find(params[:id])
+    @microposts = @user.microposts.paginate(page: params[:page])
+  end
+
   def update
     @user = User.find(params[:id])
     if @user.update_attributes(params[:user])
@@ -48,13 +53,6 @@ class UsersController < ApplicationController
   end
 
   private
-
-  def signed_in_user
-      unless signed_in?
-        store_location
-        redirect_to signin_url, notice: "Please sign in."
-      end
-    end
 
     def correct_user
       @user = User.find(params[:id])
